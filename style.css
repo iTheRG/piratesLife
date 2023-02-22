@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.piratesLife_bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #252525;
+}
+
+.piratesLife_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    max-width: 1200px;
+}
+
+.piratesLife_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 28px;
+    margin-bottom: 46px;
+}
+
+.header_logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo_decorBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.logo_decorBlock span {
+    width: 5px;
+    margin-right: 2px;
+    background: #F8B33A;
+    border-radius: 5px;
+}
+
+.logo_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8B33A;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_links {
+    display: flex;
+    font-size: 24px;
+    font-weight: 900;
+    list-style: none;
+}
+
+.menu_links_link {
+    margin-right: 40px;
+}
+
+.menu_links .menu_links_link a {
+    text-decoration: none;
+    color: #F8B33A;
+    cursor: pointer;
+}
+
+.menu_links .menu_links_link a:hover {
+    opacity: 50%;
+}
+
+.header_hamburgerMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 53px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.header_hamburgerMenu:hover {
+    opacity: 50%;
+}
+
+.header_hamburgerMenu span {
+    height: 5px;
+    background-color: #F8B33A;
+    border-radius: 5px;
+}
+
+.piratesLife_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 46px;
+}
+
+.main_asideBlock {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+.asideBlock_heading {
+    font-size: 68px;
+    color: #F8B33A;
+}
+
+.asideBlock_link {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.asideBlock_link a {
+    text-decoration: none;
+    background-color: #f8b33a;
+    font-size: 48px;
+    font-weight: 900;
+    color: #252525;
+    padding: 10px 39px;
+    transform:skewX(-30deg);
+}
+
+.asideBlock_link a:hover {
+    background-color: rgb(171, 124, 42)
+}
+
+.asideBlock_link a div {
+    transform:skewX(30deg);
+}
+
+.piratesLife_about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 46px;
+}
+
+.about_heading {
+    font-size: 36px;
+    color: #F8B33A;
+    margin-bottom: 8px;
+}
+
+.about_text {
+    text-align: center;
+    color: #f4f4f4;
+    margin-bottom: 32px;
+}
+
+.text_heading {
+    font-size: 20px;
+}
+
+.colouring_yellow {
+    font-size: 22px;
+    font-weight: 900;
+    color: #F8B33A;
+}
+
+.text_description {
+    font-size: 20px;
+}
+
+.colouring_blue {
+    font-size: 18px;
+    font-weight: 900;
+    color: #3885C8;
+}
+
+.colouring_brown {
+    font-size: 18px;
+    font-weight: 900;
+    color: #B56D1A;
+}
+
+.about_descriptionBlocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.descriptionBlocks_descriptionBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 64px;
+}
+
+.descriptionBlock_heading {
+    display: flex;
+    justify-content: start;
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.descriptionBlock_picture {
+    margin-bottom: 8px;
+}
+
+.descriptionBlock_text {
+    width: 254px;
+    font-size: 16px;
+    color: #f4f4f4;
+}
+
+.color_blue {
+    color: #3885C8;
+}
+
+.color_brown {
+    color: #B56D1A;
+}
+
+.color_yellow {
+    color: #F8B33A;
+}
+
+.piratesLife_whatfor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 46px;
+}
+
+.whatfor_heading {
+    font-size: 36px;
+    color: #F8B33A;
+    margin-bottom: 8px;
+}
+
+.whatfor_descriptionBlocks {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.whatfor_descriptionBlocks .descriptionBlocks_descriptionBlock {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+
+.description_heading {
+    color:#F8B33A;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.descriptionBlock_description {
+    width: 524px;
+}
+
+.description_text {
+    font-size: 24px;
+    color: #f4f4f4;
+}
+
+.piratesLife_socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.socials_heading {
+    font-size: 36px;
+    margin-bottom: 16px;
+    color:#F8B33A;
+}
+
+.socials_socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMedia_bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#F8B33A;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0 4px;
+}
+
+.socialMedia_bg img {
+    width: 20px;
+}
+
+.facebook {
+    height: 20px;
+}
+
+.socials_subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe_or {
+    margin: 8px 0;
+    color:#F8B33A;
+    font-size: 36px;
+}
+
+.subscribe_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.form_input {
+    font-size: 18px;
+    border: 2px solid #F8B33A;
+    border-radius: 10px;
+    background-color: rgba(123, 231, 212, 0);
+    color: #f4f4f4;
+    height: 34px;
+    width: 544px;
+    padding-left: 10px;
+    margin-bottom: 8px;
+    outline: 0;
+    outline-offset: 0;
+}
+
+.form_button {
+    font-size: 24px;
+    background-color: #F8B33A;
+    border: unset;
+    outline-offset: unset;
+    border-radius: 10px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
